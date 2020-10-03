@@ -5,14 +5,14 @@ import SEO from "../components/seo"
 import PostLink from "../components/post-link"
 import Apresentation from "../components/apresentation"
 
-const IndexPage = ({
+const AllPosts = ({
   data: {
     allMarkdownRemark: { edges },
   },
 }) => {
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO title="All Posts" />
       <Apresentation />
       <div>
         {edges.map(edge => (
@@ -23,7 +23,7 @@ const IndexPage = ({
   )
 }
 
-export default IndexPage
+export default AllPosts
 
 export const pageQuery = graphql`
   query {
