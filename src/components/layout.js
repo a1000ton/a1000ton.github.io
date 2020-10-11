@@ -19,9 +19,9 @@ const Layout = ({ children }) => {
   return (
     <div className="blog-container">
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div>
+      <div className="content-container">
         <main>{children}</main>
-        <footer>{`© ${new Date().getFullYear()}  Amilton Baracy`}</footer>
+        {/* <footer>{`© ${new Date().getFullYear()}  Amilton Baracy`}</footer> */}
       </div>
     </div>
   )

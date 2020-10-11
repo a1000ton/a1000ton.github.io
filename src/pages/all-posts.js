@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PostLink from "../components/post-link"
-import Apresentation from "../components/apresentation"
+import Presentation from "../components/presentation"
 
 const AllPosts = ({
   data: {
@@ -13,7 +13,7 @@ const AllPosts = ({
   return (
     <Layout>
       <SEO title="All Posts" />
-      <Apresentation />
+      <Presentation />
       <div>
         {edges.map(edge => (
           <PostLink key={edge.node.id} post={edge.node} />

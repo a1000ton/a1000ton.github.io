@@ -3,7 +3,9 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PostLink from "../components/post-link"
-import Apresentation from "../components/apresentation"
+import Presentation from "../components/presentation"
+
+import "./pages.css"
 
 const IndexPage = ({
   data: {
@@ -13,8 +15,9 @@ const IndexPage = ({
   return (
     <Layout>
       <SEO title="Home" />
-      <Apresentation />
-      <div>
+      <Presentation />
+      <div className="publications-section">
+        <h1>Publicações</h1>
         {edges.map(edge => (
           <PostLink key={edge.node.id} post={edge.node} />
         ))}
