@@ -3,8 +3,10 @@ module.exports = {
     title: `Amilton Baracy`,
     description: `A blog about development and games stuff, personal things and random posts`,
     author: `@a1000ton`,
+    siteUrl: 'http://baracy.com.br/'
   },
   plugins: [
+    `gatsby-plugin-cname`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
