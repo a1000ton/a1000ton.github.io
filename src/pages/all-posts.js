@@ -13,7 +13,6 @@ const AllPosts = ({
   return (
     <Layout>
       <SEO title="All Posts" />
-      <Presentation />
       <div>
         {edges.map(edge => (
           <PostLink key={edge.node.id} post={edge.node} />

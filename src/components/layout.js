@@ -21,7 +21,6 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div className="content-container">
         <main>{children}</main>
-        {/* <footer>{`© ${new Date().getFullYear()}  Amilton Baracy`}</footer> */}
       </div>
     </div>
   )

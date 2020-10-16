@@ -17,7 +17,7 @@ const IndexPage = ({
       <SEO title="Home" />
       <Presentation />
       <div className="publications-section">
-        <h1>Publicações</h1>
+        <h1 className="publications-header">Publicações</h1>
         {edges.map(edge => (
           <PostLink key={edge.node.id} post={edge.node} />
         ))}
@@ -36,7 +36,7 @@ export const pageQuery = graphql`
           id
           description: excerpt(pruneLength: 250)
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "DD/MM/YYYY")
             slug
             title
           }
