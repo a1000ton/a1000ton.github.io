@@ -1,0 +1,16 @@
+.post-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.post-content {
+  margin-top: 2rem;
+}
+
+.post-date svg {
+  vertical-align: text-top;
+}
+
+.post-tags {
+  margin-top: 1.5rem;
+}

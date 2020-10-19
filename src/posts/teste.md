@@ -2,9 +2,12 @@
 slug: "/blog/teste"
 date: "2019-05-04"
 title: "My first blog post"
+tags: ["net", "javascript", "html", "agile"]
 ---
 
-aaaa
+![Philadelphia's Magic Gardens. This place was so cool!](images/maxresdefault.jpg "Philadelphia's Magic Gardens")
+
+aaaas
 
 asaijdajsida
 

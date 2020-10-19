@@ -9,7 +9,7 @@ const PostLink = ({ post }) => (
       className="link-title"
       to={post.frontmatter.slug}
     >{`${post.frontmatter.title}`}</Link>
-    <div>
+    <div className="post-link-date">
       <BiCalendarCheck /> {post.frontmatter.date}
     </div>
     <div>{post.description}</div>

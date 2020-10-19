@@ -1,0 +1,29 @@
+.tags-container {
+  display: flex;
+  flex-flow: row;
+}
+
+.tag {
+  display: flex;
+  flex-flow: column;
+  margin-right: 0.5rem;
+  font-size: 1rem;
+  padding: 0 0.25rem 0 0.25rem;
+  border-radius: 0.25rem;
+}
+
+.html {
+  background-color: #097548;
+}
+
+.javascript {
+  background-color: #6e1086;
+}
+
+.net {
+  background-color: #0f3d6d;
+}
+
+.agile {
+  background-color: #840606;
+}
