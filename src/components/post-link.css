@@ -1,3 +1,11 @@
+.post-subheader-content {
+  display: inline-flex;
+}
+
+.post-subheader {
+  margin-bottom: 1rem;
+}
+
 .post-thumb {
   margin-bottom: 3.5rem;
 }
@@ -10,6 +18,10 @@
   text-decoration: none;
   font-size: 1.25rem;
   font-weight: bold;
+}
+
+.post-link-date {
+  margin-right: 1rem;
 }
 
 .post-link-date svg {

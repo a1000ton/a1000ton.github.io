@@ -5,9 +5,7 @@ const Tags = props => {
   const { tags, className, ...otherProps } = props
   return (
     <div className={`tags-container ${className}`} {...otherProps}>
-      {tags.map(tag => (
-        <div className={`tag ${tag}`}>{tag}</div>
-      ))}
+      {tags && tags.map(tag => <div className={`tag ${tag}`}>{tag}</div>)}
     </div>
   )
 }

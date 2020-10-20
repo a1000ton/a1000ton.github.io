@@ -1,8 +1,8 @@
 ---
-slug: "/blog/teste"
+slug: "/blog/testea"
 date: "2019-05-04"
 title: "My first blog post"
-tags: ["net", "javascript", "html", "agile"]
+tags: ["html", "agile"]
 ---
 
 aaaa

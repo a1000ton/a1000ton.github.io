@@ -5,7 +5,7 @@ title: "My first blog post"
 tags: ["net", "javascript", "html", "agile"]
 ---
 
-![Philadelphia's Magic Gardens. This place was so cool!](images/maxresdefault.jpg "Philadelphia's Magic Gardens")
+![Philadelphia's Magic Gardens. This place was so cool!](./images/maxresdefault.jpg "Philadelphia's Magic Gardens")
 
 aaaas
 
