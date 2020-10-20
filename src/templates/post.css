@@ -11,6 +11,10 @@
   vertical-align: text-top;
 }
 
+.post-date {
+  margin-bottom: 1rem;
+}
+
 .post-tags {
   margin-top: 1.5rem;
 }
