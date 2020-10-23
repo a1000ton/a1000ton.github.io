@@ -1,0 +1,35 @@
+.post-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.post-content {
+  margin-top: 2rem;
+}
+
+.post-date svg {
+  vertical-align: text-top;
+}
+
+.post-date {
+  margin-bottom: 1rem;
+}
+
+.post-tags {
+  margin-top: 1.5rem;
+}
+
+.gatsby-resp-image-figcaption {
+  font-style: italic;
+  opacity: 80%;
+  text-align: center;
+}
+
+.gatsby-resp-image-image {
+  border-radius: 0.5rem;
+}
+
+.gatsby-resp-image-figure {
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}

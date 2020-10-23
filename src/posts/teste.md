@@ -3,7 +3,7 @@ slug: "/blog/teste"
 date: "2019-05-04"
 title: "My first blog post"
 tags: ["net", "javascript", "html", "agile"]
-featuredImage: ../images/maxresdefault.jpg
+featuredImage: ../images/teste/maxresdefault.jpg
 ---
 
 aaaas
@@ -12,9 +12,8 @@ asaijdajsida
 
 **isso memso**
 
-[nada disso]()
-
 uma breve coisa isso mesmo uma breve coisa
+![Isso](../images/teste/maxresdefault.jpg "aquilo")
 
 a
 asdkjasdashdasid

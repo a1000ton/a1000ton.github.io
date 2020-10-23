@@ -3,7 +3,7 @@ module.exports = {
     title: `Amilton Baracy`,
     description: `A blog about development and games stuff, personal things and random posts`,
     author: `@a1000ton`,
-    siteUrl: 'http://baracy.com.br/'
+    siteUrl: "http://baracy.com.br/",
   },
   plugins: [
     `gatsby-plugin-cname`,
@@ -16,6 +16,23 @@ module.exports = {
       },
     },
     `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          `gatsby-remark-relative-images`,
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 800,
+              linkImagesToOriginal: false,
+              sizeByPixelDensity: true,
+              showCaptions: true,
+            },
+          },
+        ],
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

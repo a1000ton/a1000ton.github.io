@@ -3,7 +3,6 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PostLink from "../components/post-link"
-import Presentation from "../components/presentation"
 
 const AllPosts = ({
   data: {
@@ -35,6 +34,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             slug
             title
+            tags
           }
         }
       }

@@ -1,30 +1,31 @@
 import React from "react"
 import { graphql } from "gatsby"
 import { BiCalendarCheck } from "react-icons/bi"
-import Img from "gatsby-image"
-import Layout from "../components/layout"
-import Tags from "../components/tags"
+import Layout from "./layout"
+import Tags from "./tags"
 import "./post.css"
 
 export default function Template({ data }) {
   const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark
-  let featuredImgFluid = frontmatter.featuredImage.childImageSharp.fluid
 
   return (
     <Layout>
       <div>
         <h1 className="post-title">{frontmatter.title}</h1>
-        <div className="post-date">
-          <BiCalendarCheck /> <span className="date">{frontmatter.date}</span>
+        <div className="post-subheader">
+          <div className="post-subheader-content">
+            <div className="post-link-date">
+              <BiCalendarCheck /> {frontmatter.date}
+            </div>
+            <Tags className="post-link-tags" tags={frontmatter.tags} />
+          </div>
         </div>
-        <Img fluid={featuredImgFluid} />
         <div
           className="post-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
       </div>
-      <Tags className="post-tags" tags={frontmatter.tags} />
     </Layout>
   )
 }
