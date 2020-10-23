@@ -39,13 +39,6 @@ export const pageQuery = graphql`
         slug
         title
         tags
-        featuredImage {
-          childImageSharp {
-            fluid(maxWidth: 800) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
       }
     }
   }
