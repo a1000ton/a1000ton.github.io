@@ -3,7 +3,7 @@ module.exports = {
     title: `Amilton Baracy`,
     description: `A blog about development and games stuff, personal things and random posts`,
     author: `@a1000ton`,
-    siteUrl: "http://baracy.com.br/",
+    siteUrl: "https://a1000ton.github.io/",
   },
   plugins: [
     `gatsby-plugin-cname`,
@@ -55,4 +55,4 @@ module.exports = {
       },
     },
   ],
-}
+};
